@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/masuk"
+        android:layout_width="600dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="450dp"
+        android:text="INPUT"
+        android:onClick="input"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/namaTimB"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="400dp"
+        android:inputType="text"
+        android:text="Nama Tim B" />
+
+    <EditText
+        android:id="@+id/namaTimA"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nama Tim A" />
+
+</RelativeLayout>

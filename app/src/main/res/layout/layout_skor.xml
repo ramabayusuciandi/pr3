@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/satua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="Tambah"
+        android:text="SATU POINT"
+        android:textColor="#00ffff"/>
+
+    <Button
+        android:id="@+id/duaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DUA POINT"
+        android:onClick="Tambah"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#00ffff"/>
+
+    <Button
+        android:id="@+id/tigaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="280dp"
+        android:onClick="Tambah"
+        android:text="TIGA POINT"
+        android:textColor="#00ffff"/>
+
+    <TextView
+        android:id="@+id/TimA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="110dp"
+        android:text="Point Tim A"
+        android:textColor="#ff0000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/skorA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="130dp"
+        android:text="0"
+        android:textColor="#00ff00"
+        android:textSize="100dp" />
+
+    <Button
+        android:id="@+id/ResetA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="250dp"
+        android:onClick="Reset"
+        android:text="RESET PERHITUNGAN"
+        android:textColor="#00ffff" />
+
+    <Button
+        android:id="@+id/ResetB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="380dp"
+        android:onClick="Reset"
+        android:text="RESET PERHITUNGAN"
+        android:textColor="#00ffff" />
+
+    <TextView
+        android:id="@+id/skorB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="170dp"
+        android:textColor="#00ff00"/>
+
+    <TextView
+        android:id="@+id/TimB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Point Tim B"
+        android:textSize="30dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="#ff0000"/>
+
+    <Button
+        android:id="@+id/satub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="Tambah"
+        android:text="SATU POINT"
+        android:textColor="#00ffff"/>
+
+    <Button
+        android:id="@+id/duab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Tambah"
+        android:text="DUA POINT"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#00ffff"/>
+
+    <Button
+        android:id="@+id/tigab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="280dp"
+        android:onClick="Tambah"
+        android:text="TIGA POINT"
+        android:textColor="#00ffff"/>
+</RelativeLayout>
